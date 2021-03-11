@@ -37,12 +37,14 @@
   height: 50%;
   width: 50%;
   margin: 0 auto;
-  text-align: center;
-  background-image: url("./img/bali_mask.jpg");
-  background-size: cover;
-  border-radius: 75%;
 
+}
 
+.mask-logo {
+  display: block;
+  border-radius: 50%; 
+  height: 5em; 
+  width: 5em;
 }
 
 
