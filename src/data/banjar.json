@@ -1,0 +1,18 @@
+{
+    "type": "GamelanCollection",
+    "banjar": [ {
+        "properties": {
+            "NAME": "peliatan",
+            "ENSEMBLE_ID": "01",
+            "KABUPATEN": "Gianyar",
+            "coordinates": [115.2801149236677, -8.446920421129173]
+            
+        }
+    }
+]
+
+
+
+
+
+}

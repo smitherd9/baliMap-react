@@ -6,6 +6,8 @@ import { Grid, Row, Col, Navbar, Nav, NavItem, NavDropdown, MenuItem, Modal, But
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 import peliatan from './audio/peliatan.mp3';
+import * as banjarData from './data/banjar.json';
+
 
 
 
@@ -13,6 +15,8 @@ const mapStyles = {
   width: '100%',
   height: '100%'
 };
+
+const key = process.env.REACT_APP_GOOGLE_KEY;
 
 
 export class MapContainer extends Component {
@@ -61,6 +65,12 @@ export class MapContainer extends Component {
         }
       >
 
+        {/* {banjarData.type.banjar.map((ensemble) => (
+          <Marker key={ensemble.properties.ENSEMBLE_ID} 
+          position={{ lat: ensemble.properties.coordinates[1], 
+            lng: ensemble.properties.coordinates[0] }} />
+        ))}, */}
+
      
       <Marker
           onClick={this.onMarkerClick}
@@ -69,14 +79,14 @@ export class MapContainer extends Component {
         </Marker>
         
 
-        <Marker
+        {/* <Marker
           onClick={this.onMarkerClick}
           name={'Peliatan Bali, Indonesia'}
           position={{ lat: -8.446920421129173, lng: 115.2801149236677 }}
           
           
         >
-        </Marker>
+        </Marker> */}
 
         <Marker
           onClick={this.onMarkerClick}
@@ -113,9 +123,10 @@ export class MapContainer extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: 'AIzaSyDGN7BSfrfmmy-o5uoiXuLspyBQJbrtkVQ'
-})(MapContainer);
+  apiKey: "AIzaSyDGN7BSfrfmmy-o5uoiXuLspyBQJbrtkVQ"
+})(MapContainer)
 
 
-
+// 'process.env.REACT_APP_BALI_MAP_GOOGLE_KEY'
+// "AIzaSyDGN7BSfrfmmy-o5uoiXuLspyBQJbrtkVQ" 
 
