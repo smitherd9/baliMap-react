@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/baliMap-react/static/css/main.7a7dfb0a.chunk.css",
+    "main.js": "/baliMap-react/static/js/main.ba440880.chunk.js",
+    "main.js.map": "/baliMap-react/static/js/main.ba440880.chunk.js.map",
+    "runtime-main.js": "/baliMap-react/static/js/runtime-main.85e08521.js",
+    "runtime-main.js.map": "/baliMap-react/static/js/runtime-main.85e08521.js.map",
+    "static/css/2.3e35cbb6.chunk.css": "/baliMap-react/static/css/2.3e35cbb6.chunk.css",
+    "static/js/2.f757b366.chunk.js": "/baliMap-react/static/js/2.f757b366.chunk.js",
+    "static/js/2.f757b366.chunk.js.map": "/baliMap-react/static/js/2.f757b366.chunk.js.map",
+    "static/js/3.704b51ab.chunk.js": "/baliMap-react/static/js/3.704b51ab.chunk.js",
+    "static/js/3.704b51ab.chunk.js.map": "/baliMap-react/static/js/3.704b51ab.chunk.js.map",
+    "index.html": "/baliMap-react/index.html",
+    "static/css/2.3e35cbb6.chunk.css.map": "/baliMap-react/static/css/2.3e35cbb6.chunk.css.map",
+    "static/css/main.7a7dfb0a.chunk.css.map": "/baliMap-react/static/css/main.7a7dfb0a.chunk.css.map",
+    "static/js/2.f757b366.chunk.js.LICENSE.txt": "/baliMap-react/static/js/2.f757b366.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/baliMap-react/static/media/agung.028660c0.jpg",
+    "static/media/bali_mask.74f1fe77.jpg": "/baliMap-react/static/media/bali_mask.74f1fe77.jpg",
+    "static/media/peliatan.94cae6eb.mp3": "/baliMap-react/static/media/peliatan.94cae6eb.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.85e08521.js",
+    "static/css/2.3e35cbb6.chunk.css",
+    "static/js/2.f757b366.chunk.js",
+    "static/css/main.7a7dfb0a.chunk.css",
+    "static/js/main.ba440880.chunk.js"
+  ]
+}
